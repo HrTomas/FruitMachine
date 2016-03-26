@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Project: Fruit Machine
+File: activity_main
+Purpose: Main layout
+Author: Tomas Hreha
+Date: 25.3.2015
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
+    tools:context="com.example.tomas.fruitmachine.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/CenterColumn"
+        android:visibility="visible">
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/banana"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/apple"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView2"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView3"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/cherry" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView4"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/orange" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/CenterColumn1"
+        android:visibility="visible">
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/banana"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView1"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/apple"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView21"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView31"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/cherry" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView41"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/orange" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RightColumn"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/CenterColumn"
+        android:layout_toEndOf="@+id/CenterColumn">
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/banana"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView44"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/apple"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView24"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView34"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/cherry" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView444"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/orange" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RightColumn1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/CenterColumn"
+        android:layout_toEndOf="@+id/CenterColumn">
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/banana"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView5"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/apple"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView25"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView35"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/cherry" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView45"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/orange" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LeftColumn"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/CenterColumn"
+        android:layout_toStartOf="@+id/CenterColumn">
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/banana"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView333"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/apple"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView23"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView33"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/cherry" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView43"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/orange" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LeftColumn1"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/CenterColumn"
+        android:layout_toStartOf="@+id/CenterColumn">
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/banana"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView6"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/apple"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView26"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView36"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/cherry" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView46"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/orange" />-->
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:id="@+id/relativeLayout2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:id="@+id/TopWhite"
+            android:background="#ffffff"></RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:id="@+id/BottomWhite"
+            android:background="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_stop"
+                android:id="@+id/Stop"
+                android:visibility="visible"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/textView4"
+                android:layout_toEndOf="@+id/textView4" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_spin"
+                android:id="@+id/Spin"
+                android:layout_above="@+id/Stop"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:id="@+id/textView4"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Results"
+                android:id="@+id/Results"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView4"
+                android:layout_toStartOf="@+id/textView4" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
